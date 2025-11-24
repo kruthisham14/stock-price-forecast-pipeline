@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# Environment files
+.env
+*.ini
+
+# MacOS
+.DS_Store
+
+# Docker
+postgres-db-volume/
+postgres-data/
+*.pid
+
